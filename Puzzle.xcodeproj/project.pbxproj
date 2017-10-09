@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8B83F461F8C146B004A480A /* PuzzleView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B83F451F8C146B004A480A /* PuzzleView.h */; };
+		F8B83F481F8C146B004A480A /* PuzzleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B83F471F8C146B004A480A /* PuzzleView.m */; };
+		F8B83F511F8C14B7004A480A /* PuzzleScene.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B83F4F1F8C14B7004A480A /* PuzzleScene.h */; };
+		F8B83F521F8C14B7004A480A /* PuzzleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B83F501F8C14B7004A480A /* PuzzleScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8B83F421F8C146B004A480A /* Puzzle.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Puzzle.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B83F451F8C146B004A480A /* PuzzleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzleView.h; sourceTree = "<group>"; };
+		F8B83F471F8C146B004A480A /* PuzzleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleView.m; sourceTree = "<group>"; };
+		F8B83F491F8C146B004A480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B83F4F1F8C14B7004A480A /* PuzzleScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzleScene.h; sourceTree = "<group>"; };
+		F8B83F501F8C14B7004A480A /* PuzzleScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B83F3E1F8C146B004A480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8B83F381F8C146B004A480A = {
+			isa = PBXGroup;
+			children = (
+				F8B83F441F8C146B004A480A /* Puzzle */,
+				F8B83F431F8C146B004A480A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B83F431F8C146B004A480A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8B83F421F8C146B004A480A /* Puzzle.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B83F441F8C146B004A480A /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				F8B83F451F8C146B004A480A /* PuzzleView.h */,
+				F8B83F471F8C146B004A480A /* PuzzleView.m */,
+				F8B83F4F1F8C14B7004A480A /* PuzzleScene.h */,
+				F8B83F501F8C14B7004A480A /* PuzzleScene.m */,
+				F8B83F491F8C146B004A480A /* Info.plist */,
+			);
+			path = Puzzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F8B83F3F1F8C146B004A480A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B83F461F8C146B004A480A /* PuzzleView.h in Headers */,
+				F8B83F511F8C14B7004A480A /* PuzzleScene.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F8B83F411F8C146B004A480A /* Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B83F4C1F8C146B004A480A /* Build configuration list for PBXNativeTarget "Puzzle" */;
+			buildPhases = (
+				F8B83F3D1F8C146B004A480A /* Sources */,
+				F8B83F3E1F8C146B004A480A /* Frameworks */,
+				F8B83F3F1F8C146B004A480A /* Headers */,
+				F8B83F401F8C146B004A480A /* Resources */,
+				F8B83F531F8C2F6C004A480A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puzzle;
+			productName = Puzzle;
+			productReference = F8B83F421F8C146B004A480A /* Puzzle.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B83F391F8C146B004A480A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Stefan Arentz";
+				TargetAttributes = {
+					F8B83F411F8C146B004A480A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8B83F3C1F8C146B004A480A /* Build configuration list for PBXProject "Puzzle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8B83F381F8C146B004A480A;
+			productRefGroup = F8B83F431F8C146B004A480A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8B83F411F8C146B004A480A /* Puzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8B83F401F8C146B004A480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8B83F531F8C2F6C004A480A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCREEN_SAVER_PATH=\"${HOME}/Library/Screen Savers/${FULL_PRODUCT_NAME}\"\nif [[ -d \"${SCREEN_SAVER_PATH}\" || -f \"${SCREEN_SAVER_PATH}\" || -L \"${SCREEN_SAVER_PATH}\" ]]; then\nrm -Rf \"${SCREEN_SAVER_PATH}\"\nfi\nln -s \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\" \"${SCREEN_SAVER_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8B83F3D1F8C146B004A480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B83F521F8C14B7004A480A /* PuzzleScene.m in Sources */,
+				F8B83F481F8C146B004A480A /* PuzzleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8B83F4A1F8C146B004A480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8B83F4B1F8C146B004A480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F8B83F4D1F8C146B004A480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NTLVDQ6CE4;
+				INFOPLIST_FILE = Puzzle/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.arentz.Puzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F8B83F4E1F8C146B004A480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NTLVDQ6CE4;
+				INFOPLIST_FILE = Puzzle/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.arentz.Puzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8B83F3C1F8C146B004A480A /* Build configuration list for PBXProject "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B83F4A1F8C146B004A480A /* Debug */,
+				F8B83F4B1F8C146B004A480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B83F4C1F8C146B004A480A /* Build configuration list for PBXNativeTarget "Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B83F4D1F8C146B004A480A /* Debug */,
+				F8B83F4E1F8C146B004A480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B83F391F8C146B004A480A /* Project object */;
+}
