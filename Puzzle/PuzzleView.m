@@ -62,6 +62,7 @@
             self.scene = [[PuzzleScene alloc] initWithSize: self.frame.size image: image];
             [self.sceneView presentScene: self.scene];
         }
+        CGImageRelease(imageRef);
     }
 }
 
